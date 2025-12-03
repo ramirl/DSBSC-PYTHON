@@ -42,11 +42,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parameters
-Am = 4.7      # Message amplitude
-Ac = 9.4      # Carrier amplitude
-fm = 376      # Message frequency (Hz)
-fc = 3760     # Carrier frequency (Hz)
-fs = 376000   # Sampling frequency (Hz)
+Am = 4.4      # Message amplitude
+Ac = 9    # Carrier amplitude
+fm = 352      # Message frequency (Hz)
+fc = 3520     # Carrier frequency (Hz)
+fs = 352000   # Sampling frequency (Hz)
 
 # Time vector
 t = np.arange(0, 2/fm, 1/fs)
@@ -81,11 +81,12 @@ plt.show()
 ```
 Output Graph
 
-<img width="630" height="469" alt="image" src="https://github.com/user-attachments/assets/e3ab6429-242b-4e11-968f-3255f68faf46" />
+![WhatsApp Image 2025-11-16 at 19 49 08_8e0dfdcb](https://github.com/user-attachments/assets/2f609325-e869-45a2-982d-1f7c7cc9ef28)
+
 
 Tablular Column:
 
-![WhatsApp Image 2025-11-28 at 20 12 08_00783cee](https://github.com/user-attachments/assets/cae2cd74-e48f-42c4-bf8f-ddf2eb27e8f4)
+![WhatsApp Image 2025-12-03 at 20 16 14_d435ed76](https://github.com/user-attachments/assets/f1bca4e2-414e-44a7-94e4-d5d0a5c1c6af)
 
 
 Result
